@@ -19,7 +19,8 @@ lessThan(QT_MAJOR_VER, 4) | lessThan(QT_MINOR_VER, 7) {
 TEMPLATE = subdirs
 
 CONFIG += ordered
-SUBDIRS = src tests examples
+SUBDIRS = src tests 
+#examples
 
 xclean.commands = rm -rf lib plugins include
 xclean.depends = clean
